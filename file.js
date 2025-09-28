@@ -1,4 +1,7 @@
 const fs = require("fs");
+const os = require("os");
+
+console.log(os.cpus().length)
 
 // // Sync file writer ...
 // fs.writeFileSync("./text_file.txtt" , "hello world!")
